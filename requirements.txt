@@ -1,6 +1,6 @@
 numpy>=1.15
 regex
 allennlp
-fever-scorer
-fever-allennlp-reader
+git+git://github.com/gruentee/fever-scorer.git
+git+git://github.com/gruentee/fever-allennlp-reader.git
 fever-drqa
