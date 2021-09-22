@@ -17,7 +17,7 @@ setup(
     url='https://jamesthorne.co.uk',
     description='Fact Extraction and VERification experiments built on AllenNLP',
     long_description="readme",
-    license=license,
+    license="Apache 2.0",
     python_requires='>=3.6',
     package_dir={'fever': 'src/fever',
                  'fever.submission': 'src/fever/submission',
