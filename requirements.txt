@@ -1,6 +1,6 @@
 numpy>=1.15
 regex
-allennlp
+allennlp<2.7.0     # >= 2.70 doesn't support Py3.6 anymore
 git+git://github.com/gruentee/fever-scorer.git
 git+git://github.com/gruentee/fever-allennlp-reader.git
 fever-drqa
